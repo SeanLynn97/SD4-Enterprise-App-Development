@@ -79,6 +79,7 @@ public static List<Authors> getAllAuthors() {
         String q = "SELECT a from Authors a";
         
         TypedQuery<Authors> tq = em.createQuery(q, Authors.class);
+        //TypedQuery<Authors> tq = em.createNamedQuery("Authors.findAll", Authors.class);
         
         List<Authors> list;
         

@@ -1,7 +1,7 @@
 
 ## To Do: :point_down:
 
-1. Create DB connection 
+1. Create DB connection (you may be required to add a [JAR file](https://moodle.lit.ie/mod/resource/view.php?id=136565) for MySQL to Netbeans to do this).
 
 2. Add Persistence Unit to project.
 

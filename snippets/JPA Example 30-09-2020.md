@@ -343,4 +343,14 @@ public static void updateAuthor(Authors a) {
     }//end insertAuthor()
    
    ```
- 
+   
+   ### Set POM repo to HTTPS
+   ```xml
+ <repositories>
+   <repository>
+      <id>Central Maven repository</id>
+      <name>Central Maven repository https</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+   </repository>
+</repositories>
+```

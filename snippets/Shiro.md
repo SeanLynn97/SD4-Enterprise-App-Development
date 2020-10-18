@@ -7,6 +7,7 @@
 - [web.xml](#webxml)
 - [Shiro.ini with users, passwords and roles stored *in the file*](#shiroini-v1)
 - [Shiro Login Failure](#shiro-login-failure)
+- [Shiro User Tag](#shiro-user)
 - [SQL Script For Shiro DB](#sql-script)
 - [Shiro.ini with users, passwords and roles stored *in the DB*](#shiroini-v2)
 
@@ -204,6 +205,14 @@ statistician = stats_stuff
     Username or password incorrect
 </c:if>
 
+```
+## Shiro User
+```jsp
+ <shiro:user>
+            You are already logged in
+            <br>Visit the secret content<a href="secret/index.jsp"> here    </a>
+            <br><a href="/ShiroTester_DELETE/logout">Logout</a>
+        </shiro:user>
 ```
 ## SQL Script
 ```sql

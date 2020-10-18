@@ -209,10 +209,10 @@ statistician = stats_stuff
 ## Shiro User
 ```jsp
  <shiro:user>
-            You are already logged in
-            <br>Visit the secret content<a href="secret/index.jsp"> here    </a>
-            <br><a href="/ShiroTester_DELETE/logout">Logout</a>
-        </shiro:user>
+      You are already logged in
+      <br>Visit the secret content<a href="secret/index.jsp"> here    </a>
+      <br><a href="/****YOUR APP PATH****/logout">Logout</a>
+ </shiro:user>
 ```
 ## SQL Script
 ```sql

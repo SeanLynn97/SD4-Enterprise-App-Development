@@ -6,6 +6,7 @@
 - [secret/index.jsp](#secretindexjsp)
 - [web.xml](#webxml)
 - [Shiro.ini with users, passwords and roles stored *in the file*](#shiroini-v1)
+- [Shiro Login Failure](#shiro-login-failure)
 - [SQL Script For Shiro DB](#sql-script)
 - [Shiro.ini with users, passwords and roles stored *in the DB*](#shiroini-v2)
 
@@ -196,6 +197,14 @@ admin = *
 lecturer = academic_content
 statistician = stats_stuff
 ```		
+
+## Shiro Login Failure
+```jsp
+<c:if test="${shiroLoginFailure != null}">
+    Username or password incorrect
+</c:if>
+
+```
 ## SQL Script
 ```sql
 create DATABASE shiro;
